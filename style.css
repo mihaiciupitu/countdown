@@ -71,3 +71,13 @@ body {
   overflow: hidden;
   background-color: black;
 }
+@media screen and (max-width: 600px) {
+  .launch-time div p {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  .content p,
+  .content h1 {
+    font-size: 30px;
+  }
+}
